@@ -8,7 +8,7 @@ This project is a demonstration of my current understanding of javascript. The w
 
 https://jakelipscomb.github.io/password-generator/
 
-![Password Generator](Develop/assets/images/password-generator-screenshot.png)
+![Password Generator](Develop/password-generator-screenshot.png)
 
 ## **Technologies**
 Project is created with:
