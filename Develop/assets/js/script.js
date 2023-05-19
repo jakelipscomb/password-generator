@@ -10,7 +10,7 @@ var password = [];
 var passwordStr;
 // Get references to the #generate element
 
-generateBtn.addEventListener("click", generatePassword);
+generateBtn.addEventListener("click", writePassword);
 
 
 // Write password to the #password input
@@ -21,6 +21,7 @@ function writePassword() {
   generatePassword();
   var passwordText = document.querySelector("#password");
   passwordText.value = passwordStr;
+  console.log(passwordStr);
 }
 
 function generatePassword() {
@@ -30,7 +31,7 @@ function generatePassword() {
       temp = Math.floor(Math.random() * passwordAnswers.length);
       password = password.concat(passwordAnswers[temp])
   }
-  passwordStr = password.toString();
+  passwordStr = password.join("");
   console.log(passwordStr);
 }
 
