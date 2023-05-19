@@ -12,7 +12,6 @@ var passwordStr;
 
 generateBtn.addEventListener("click", writePassword);
 
-
 // Write password to the #password input
 function writePassword() {
   passwordLength = 0;
@@ -64,7 +63,6 @@ function createPasswordOptions() {
   );
   if (containsNumericCharacters) {
     passwordAnswers = passwordAnswers.concat(numericCharacters);
-  
 }
 
 function createPasswordLength() {
@@ -81,6 +79,5 @@ function createPasswordLength() {
 
   console.log(passwordLength)
 }
-
 
 }
